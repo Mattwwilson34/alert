@@ -1,0 +1,11 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Toast__Wrapper {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  max-width: 10rem;
+}
