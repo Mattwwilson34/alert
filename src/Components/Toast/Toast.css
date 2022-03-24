@@ -1,0 +1,45 @@
+.Toast__Container {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 35px;
+  min-width: 100px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  font-size: 1.25rem;
+  display: flex;
+  margin-top: 0.25rem;
+}
+
+.Toast__Message {
+  align-self: center;
+  padding: 0.5rem;
+}
+
+.Toast__Close {
+  font-size: 1rem;
+  margin-left: auto;
+  margin-bottom: auto;
+  padding-right: 3px;
+}
+
+.Toast__Close:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.info {
+  background-color: #5bc0de;
+}
+
+.success {
+  background-color: #5cb85c;
+}
+
+.warning {
+  background-color: #f0ad4e;
+}
+
+.danger {
+  background-color: #d9534f;
+}
